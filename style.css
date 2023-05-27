@@ -1,0 +1,84 @@
+#ShirinTologonova:checked~ .KurmanbekMusuraliev, 
+#ShirinTologonova:checked~ .ElizaSatybekova,
+#ShirinTologonova:checked~ .MuratbekIbragimov {
+    display: none;
+}
+
+
+#KurmanbekMusuraliev:checked~.ShirinTologonova, 
+#KurmanbekMusuraliev:checked~ .ElizaSatybekova,
+#KurmanbekMusuraliev:checked~ .MuratbekIbragimov {
+    display: none;
+}
+
+#ElizaSatybekova:checked~.ShirinTologonova, 
+#ElizaSatybekova:checked~ .KurmanbekMusuraliev,
+#ElizaSatybekova:checked~ .MuratbekIbragimov {
+    display: none;
+}
+
+#MuratbekIbragimov:checked~.ShirinTologonova, 
+#MuratbekIbragimov:checked~ .ElizaSatybekova,
+#MuratbekIbragimov:checked~ .KurmanbekMusuraliev{
+    display: none;
+}
+
+#none:checked  ~ .ShirinTologonova,
+#none:checked  ~ .KurmanbekMusuraliev,
+#none:checked  ~ .ElizaSatybekova,
+#none:checked  ~ .MuratbekIbragimov{
+    display: none;
+}
+#baary:checked  ~ .ShirinTologonova,
+#baary:checked  ~ .KurmanbekMusuraliev,
+#baary:checked  ~ .ElizaSatybekova,
+#baary:checked  ~ .MuratbekIbragimov{
+    display: flex;
+}
+
+input[name="tab"] {
+    display: none;
+}
+
+
+
+label {
+    margin-left: 30px;
+    background-color:rgb(184, 160, 40);
+    color: white;
+    padding: 12px 30px ;
+    border: 4px black;
+    border-radius: 15px;
+ 
+    
+}
+
+.container {
+    margin-top: 30px;
+}
+
+
+.ShirinTologonova,
+.ElizaSatybekova,
+.KurmanbekMusuraliev,
+.MuratbekIbragimov {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: aqua;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
